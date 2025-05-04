@@ -165,7 +165,6 @@
     )
   )
 )
-
 ;; Function to get note information
 (define-read-only (get-note (note-id uint))
   (map-get? notes note-id)
