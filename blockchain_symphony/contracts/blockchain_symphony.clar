@@ -289,7 +289,6 @@
     )
   )
 )
-
 ;; Function to create a progression (sequence of chords)
 (define-public (create-progression (title (string-ascii 100)) (chord-type (string-ascii 10)) (root-notes (list 4 uint)))
   (let ((composition-id (unwrap! (create-composition title COMPOSITION_CLASSICAL) (err u500))))
