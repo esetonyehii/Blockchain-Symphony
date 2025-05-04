@@ -212,7 +212,6 @@
     )
   )
 )
-
 ;; Function to play a note (simulated)
 (define-public (play-note (note-id uint) (instrument-id uint))
   (let (
