@@ -137,7 +137,6 @@
       (map-set composition-notes {composition-id: composition-id, position: new-position} {
         note-id: note-id
       })
-      
       ;; Update note count in composition
       (map-set compositions composition-id (merge composition {
         note-count: (+ new-position u1)
